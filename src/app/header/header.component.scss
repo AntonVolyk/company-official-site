@@ -1,25 +1,31 @@
 :host {
     .navbar {
         display: flex;
-        justify-content: flex-end;
-    }
-    .navbar-brand {
+        padding: 0 1rem;
+        justify-content: space-between;
 
-    }
-    .navbar-collapse {
-
-    }
-    li {
-        display: inline-block;
-    
-        a {
-            padding: 1rem;
-            display: block;
-            color: #74924C;
-            border-right: 1px solid #BAD78B;
-            background: rgba(186, 215, 139, .3);
+        &__logo {
+          height: 100px;      
         }
-    
-        a:hover {background: #BAD78B}
+
+        &__item {
+            display: inline-block;
+        }
+
+        &__link {
+            padding: 0.5rem;
+            display: block;
+            text-decoration: none;
+            color: rgb(66, 65, 65);
+        }
+
+        &__link:hover {
+            color: rgba(0, 0, 0, 0.7);
+        }
+
+        &__link:after {
+            content: '|';
+            margin-left: 1rem;
+        }
     }
 }
