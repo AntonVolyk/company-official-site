@@ -1,1 +1,6 @@
-@import 'normalize.scss';
+html, body { height: 100%; }
+body { 
+    margin: 0; 
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 0.875rem;
+}
