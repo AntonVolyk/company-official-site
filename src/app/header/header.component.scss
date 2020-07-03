@@ -8,6 +8,11 @@
             justify-content: space-between;
         }
 
+        &__menu {
+            display: none;
+            margin: auto 0;
+        }
+
         &__logo {
             height: 70px;      
         }
@@ -37,13 +42,22 @@
         }
 
         @media (max-width: 768px) {
-            &__item {
-                display: block;
+            &__collapse {
+                display: none;
+            }
+
+            &__nav {
+                display: none;
             }
 
             &__link:after {
                 content: none;
             }
+
+            &__menu {
+                display: block;
+            }
+
         }
 
         @media (min-width: 576px) {
