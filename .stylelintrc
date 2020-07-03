@@ -1,3 +1,9 @@
 {
-  "extends": "stylelint-config-sass-guidelines"
+  "extends": "stylelint-config-sass-guidelines",
+  "ignoreFiles": ["./src/normalize.scss"],
+  "rules": {
+    "indentation": 4,
+    "max-nesting-depth": 4,
+    "order/properties-alphabetical-order": null
+  }
 }

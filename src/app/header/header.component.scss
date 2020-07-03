@@ -2,10 +2,10 @@
     .navbar {
         &__container {
             display: flex;
-            width: 100%;
             margin: auto;
-            padding: 0 1rem;
+            width: 100%;
             justify-content: space-between;
+            padding: 0 1rem;
         }
 
         &__menu {
@@ -36,7 +36,7 @@
             color: rgba(0, 0, 0, 0.7);
         }
 
-        &__link:after {
+        &__link::after {
             content: '|';
             margin-left: 1rem;
         }
@@ -50,7 +50,7 @@
                 display: none;
             }
 
-            &__link:after {
+            &__link::after {
                 content: none;
             }
 
